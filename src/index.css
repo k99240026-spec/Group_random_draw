@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Nanum+Gothic:wght@400;700&family=Gowun+Dodum&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Gowun Dodum", "Nanum Gothic", system-ui, sans-serif;
+  --font-display: "Outfit", "Gowun Dodum", sans-serif;
+  
+  --color-brand-primary: #4F46E5; /* Indigo */
+  --color-brand-secondary: #0D9488; /* Teal */
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #1E293B;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Beautiful custom scrollbars for name fields */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+

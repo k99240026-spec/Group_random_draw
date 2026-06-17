@@ -1,0 +1,8 @@
+{
+  "name": "Remix: 학급 모둠 랜덤 배치기",
+  "description": "반 학생들을 랜덤으로 모둠별로 배치하는 학급 운영 도구입니다. 여러 반을 나누어 관리할 수 있으며, 엑셀 명렬표 등 다양한 텍스트 형식의 붙여넣기를 완벽히 지원하고, 5초 카운트다운 애니메이션을 제공합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
